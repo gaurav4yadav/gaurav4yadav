@@ -1,38 +1,35 @@
-const staticCacheName = 'Rahul-Kumar-Jha-static-v1.1.0';
+const staticCacheName = 'Gaurav Cache';
 const assets = [
 "/",
 "/index.html",
-"/assets/css/style.css",
-"/assets/js/main.js",
-"/assets/img/portfolio/a1.jpg",
-"/assets/img/portfolio/a2.jpg",
-"/assets/img/portfolio/a3.jpg",
-"/assets/img/portfolio/a4.jpg",
+"/css/bootstrap.min.css",
+"/js/bootstrap.min.js",
+"/project1.pdf",
+"/Gaurav Yadav's resume.pdf",
+"/photos/android.svg",
+"/photos/arduino-1.svg",
+"/photos/c.svg",
+"/photos/cl.svg",
+"/photos/cpp.svg",
 
-"/assets/img/portfolio/erp2.jpg",
-"/assets/img/portfolio/hrms.jpg",
-"/assets/img/portfolio/i1.jpg",
-"/assets/img/portfolio/i2.jpg",
+"/photos/edit3.jpeg",
+"/photos/fire.svg",
+"/photos/h1.mp4",
+"/photos/html.svg",
+"/photos/mysql.svg",
+"/photos/js.svg",
+"/photos/java.svg",
+"/photos/interest/a.mp4",
+"/photos/interest/b.mp4",
+"/photos/interest/c.mp4",
+"/photos/interest/d.mp4",
+"/photos/interest/e.mp4",
+"/photos/interest/f.mp4",
 
-"/assets/img/portfolio/p1.jpg",
-"/assets/img/portfolio/POS.jpg",
-"/assets/img/portfolio/py.jpg",
-"/assets/img/portfolio/w1.jpg",
 
-"/assets/img/bg6.jpg",
-"/assets/img/favicon.png",
-"/assets/img/hero-bg.jpg",
-"/assets/img/hero-bg1.jpg",
-"/assets/img/hero-bg6.jpg",
-"/assets/img/Profile-img.jpg",
-"/assets/img/Profile-img3.jpg",
-"/assets/css/rahul.css",
-"/assets/vendor/aos/aos.css",
-"/assets/vendor/bootstrap/css/bootstrap.min.css",
-"/assets/vendor/bootstrap-icons/bootstrap-icons.css",
-"/assets/vendor/boxicons/css/boxicons.min.css",
-"/assets/vendor/glightbox/css/glightbox.min.css",
-"/assets/vendor/aos/aos.js"
+"/photos/"
+
+
 
 ];
 
