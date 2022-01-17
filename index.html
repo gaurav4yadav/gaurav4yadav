@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="/manifest.json" />
     <title>Gaurav Yadav Portfolio</title>
+    <link rel="manifest" type="text/css" href="manifest.json">
+    <meta content="Portfolio" name="keywords">
+
+
    <link rel="stylesheet" href="/css/bootstrap.min.css">
    <script src="js/bootstrap.min.js"></script>
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -517,6 +522,19 @@
   </div>
 
 
-  
 </body>
+<script >
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/sw.js').then(function(registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function(err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    });
+  }
+  </script>
+  
 </html>
